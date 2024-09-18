@@ -10,7 +10,6 @@ import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
 import myphoto from "../../assets/myp.png";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -32,21 +31,19 @@ const Hero = () => {
               repeat={Infinity}
               className="text-yellow-500 text-4xl font-bold sm:text-3xl"
             />
-            <p
-              // data-aos="fade-up"
-              className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
-            >
+            <p className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]">
               "Freelance web developer specializing in creating responsive,
               user-friendly websites and applications with a focus on clean
               design and efficient functionality."
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
-            <Link
+            <a
+              href="#hire-me"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span> Hire Me</span>
-            </Link>
+            </a>
             <a
               href={resumePDF}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
@@ -64,29 +61,49 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <Link>
+                <a
+                  href="https://github.com/nareshbudha"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link>
-                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
-                </Link>
+                <a
+                  href="https://www.linkedin.com/in/naresh-kumar-budha-aa1383285/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />
+                </a>
               </li>
               <li>
-                <Link>
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </Link>
+                <a
+                  href="https://www.instagram.com/your-profile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />
+                </a>
               </li>
               <li>
-                <Link>
+                <a
+                  href="https://www.facebook.com/your-profile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link>
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </Link>
+                <a
+                  href="https://twitter.com/your-profile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />
+                </a>
               </li>
             </ul>
           </div>
@@ -110,11 +127,6 @@ const Hero = () => {
                   src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
                   alt=""
                 />
-                {/* <img
-                  className=" w-[135px] md:w-[90px] circle-text"
-                  src={}
-                  alt="mine"
-                /> */}
                 <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
               </div>
             </div>
