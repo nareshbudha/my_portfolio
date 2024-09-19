@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Suspense
       fallback={
-        <div className="h-screen w-full flex items-center justify-center">
+        <div className="h-screen w-full flex items-center justify-center ">
           <BarLoader color="#f6c400" height={4} />
         </div>
       }
