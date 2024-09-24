@@ -14,7 +14,7 @@ export const data = [
     id: 2,
     img: taj,
     title: " Taj Group Nepal ",
-    desc: "The Taj Group Nepal website, built with React.js and Tailwind CSS, offers a clean, responsive design featuring a horizontally scrolling product slider with smooth animations that allow users to interactively browse products. The site includes filter functionality, enabling users to sort products by specific criteria such as category or popularity, making navigation intuitive and efficient. Subtle animations enhance the overall user experience, creating an engaging and dynamic interface without overwhelming the content. The website effectively integrates modern UI/UX principles, delivering a seamless and user-friendly browsing experience.",
+    desc: "",
     link: "https://tajgroupnepal.com/",
     git: "",
   },

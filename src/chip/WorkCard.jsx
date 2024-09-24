@@ -34,13 +34,13 @@ const WorkCard = () => {
                 <div className="flex items-center justify-center gap-4">
                   {/* External link for the demo */}
                   <a
-                    href="https://birendranagar-agri.spell.com.np/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={data.link} // This makes the link clickable
+                    target="_blank" // Opens the link in a new tab
+                    rel="noopener noreferrer" // Improves security by preventing the new page from having access to the window object
                     className="mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                   >
                     <RxExternalLink className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
-                    <p className="text-black">Demo</p>
+                    <p className="text-black">Live Website</p>
                   </a>
 
                   {/* Uncomment this block if you want to use GitHub links */}
