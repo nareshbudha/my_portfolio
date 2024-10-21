@@ -29,7 +29,7 @@ const Hero = () => {
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-yellow-500 text-4xl font-bold sm:text-3xl"
+              className="text-red-900 text-4xl font-bold sm:text-3xl"
             />
             <p className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]">
               "Freelance web developer specializing in creating responsive,
@@ -40,13 +40,13 @@ const Hero = () => {
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
               href="#hire-me"
-              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
+              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-red-900"
             >
               <span> Hire Me</span>
             </a>
             <a
               href={resumePDF}
-              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
+              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-red-900"
               download
             >
               <div className="flex items-center gap-1">
@@ -110,12 +110,18 @@ const Hero = () => {
         </div>
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
-            <img
-              data-aos="fade-up"
-              className=" h-[90%] rounded w-full object-cover md:h-[95%] mr-20"
-              src={myphoto}
-              alt="mine"
-            />
+        <img
+            data-aos="fade-up"
+            className="
+              h-[70%] sm:h-[80%] md:h-[95%] 
+              w-fit
+              object-cover 
+              rounded 
+              mr-0 sm:mr-10 md:mr-20" 
+            src={myphoto} 
+            alt="mine" 
+          />
+          
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div
                 data-aos="zoom-in"
