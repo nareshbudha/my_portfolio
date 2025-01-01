@@ -16,18 +16,14 @@ const App = () => {
   return (
     <Suspense
       fallback={
-        <div className="h-screen w-full flex items-center justify-center ">
-<<<<<<< HEAD
+        <div className="h-screen w-full flex items-center justify-center">
           <CircleLoader color="#9b2f43" height={200} width={200} />
-=======
-          <CircleLoader  color="#9b2f43"  height={200} width={200}  />
->>>>>>> 90254be093e67fef1ece48b17531b60380d9dff8
         </div>
       }
     >
       {loading ? (
         <div className="h-screen w-full flex items-center justify-center">
-          <CircleLoader color="#9b2f43"  height={200} width={200}  />
+          <CircleLoader color="#9b2f43" height={200} width={200} />
         </div>
       ) : (
         <Home />
