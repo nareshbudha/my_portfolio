@@ -113,7 +113,7 @@ const Hero = () => {
         <img
             data-aos="fade-up"
             className="
-              h-[70%] sm:h-[80%] md:h-[95%] 
+              h-[80%] sm:h-[95%] md:h-[100%] 
               w-fit
               object-cover 
               rounded 
