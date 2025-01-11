@@ -6,6 +6,7 @@ import { RiInstagramFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <div id="works" className=" mx-auto m-auto h-[300px]  mt-16 sm:h-[250px]">
+
       <div className=" bg-red-900 h-full flex flex-col gap-8 items-center justify-between p-10 sm:p-7">
         <h2 
         data-aos="zoom-out"
@@ -44,6 +45,7 @@ const Footer = () => {
           <a href="#"></a> |
         </div>
       </div>
+
     </div>
   );
 };
