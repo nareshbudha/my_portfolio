@@ -7,7 +7,7 @@ export const data = [
     id: 1,
     img: espell,
     title: "spell Ecommerce",
-    link: "",
+    link: "https://ecom.spell.com.np/",
     git: "",
   },
   {

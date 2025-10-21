@@ -41,10 +41,10 @@ const Resume = () => {
                   Spell Innovation pvt.ltd
                 </span>
                 <span className=" text-[.9rem] font-semibold text-red-900 sm:text-base">
-                February 2024 - Present
+                  February 2024 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                I have been working as a Frontend Developer at Spell Innovation Pvt. Ltd. since February 2024. In this role, I am responsible for designing and implementing user-friendly interfaces, ensuring responsive design across platforms, and optimizing web performance. I collaborate closely with the design and backend teams to create seamless user experiences. My work involves utilizing modern frontend technologies like React, JavaScript, HTML, and CSS, and I've contributed to several successful projects that have improved user engagement and satisfaction. This role has greatly enhanced my skills in web development and teamwork.
+                  As a Full Stack Developer at Spell Innovation Pvt. Ltd., I work on both frontend and backend development. On the backend, I design and build custom, user-friendly CMS solutions that simplify content management and streamline workflows. I integrate these systems with modern, responsive frontend interfaces, ensuring seamless performance and an intuitive user experience. My work involves technologies such as Laravel (PHP), React, MySQL, and Tailwind CSS, enabling the delivery of efficient and scalable web applications. I have contributed to several successful projects that have improved user engagement and client satisfaction. This role has significantly strengthened my expertise in web development, problem-solving, and collaborative teamwork.
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                Bachelor  degree in Computer Engineering
+                  Bachelor  degree in Computer Engineering
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                   Gradute School Of Enginering Midwest University
@@ -77,7 +77,7 @@ const Resume = () => {
                   Year 2018 - Year 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                I earned my Bachelor  degree in Computer Engineering from the Graduate School of Engineering at Midwest University, completing the program between 2018 and 2024. During my studies, I gained a solid foundation in core areas such as software development, data structures, algorithms, and web technologies. I also had the opportunity to work on various projects that enhanced my skills in problem-solving, coding, and innovative technology solutions. This academic experience has equipped me with both theoretical knowledge and practical skills to excel in the field of software and web development.
+                  I earned my Bachelor  degree in Computer Engineering from the Graduate School of Engineering at Midwest University, completing the program between 2018 and 2024. During my studies, I gained a solid foundation in core areas such as software development, data structures, algorithms, and web technologies. I also had the opportunity to work on various projects that enhanced my skills in problem-solving, coding, and innovative technology solutions. This academic experience has equipped me with both theoretical knowledge and practical skills to excel in the field of software and web development.
                 </p>
               </div>
             </div>

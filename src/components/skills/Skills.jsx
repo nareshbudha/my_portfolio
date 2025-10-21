@@ -8,7 +8,7 @@ import {
   SiJavascript,
   SiTailwindcss,
   SiMongodb,
-  SiExpress,
+  SiExpress,SiLaravel
 } from "react-icons/si";
 import { GrCode, GrReactjs } from "react-icons/gr";
 import { SiNextdotjs } from "react-icons/si";
@@ -54,6 +54,11 @@ const Skills = ({ darkMode }) => {
                   name={"Tailwind CSS"}
                   value={80}
                 />
+                   <ProgressBar
+                  logo={<SiLaravel/>}
+                  name={"Laravel PHP"}
+                  value={80}
+                />
               </div>
             </div>
           </div>
@@ -77,10 +82,10 @@ const Skills = ({ darkMode }) => {
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={<SiLaravel />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"Laravel PHP"}
               />
               <SkillBox
                 className=""
@@ -100,6 +105,10 @@ const Skills = ({ darkMode }) => {
           data-aos-duration="1200"
           className=" container m-auto flex items-center justify-center mt-8 gap-8 md:gap-5"
         >
+            <img
+            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+            src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000"
+          />
           <img
             className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
             src="https://img.icons8.com/ios-filled/50/null/c-plus-plus-logo.png"
