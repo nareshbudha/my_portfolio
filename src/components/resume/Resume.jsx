@@ -71,13 +71,13 @@ const Resume = () => {
                   Bachelor  degree in Computer Engineering
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Gradute School Of Enginering Midwest University
+                  Graduate School Of Engineering Midwest University
                 </span>
                 <span className=" text-[.9rem] font-semibold text-red-900 sm:text-base">
                   Year 2018 - Year 2025
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  I earned my Bachelor  degree in Computer Engineering from the Graduate School of Engineering at Midwest University, completing the program between 2018 and 2024. During my studies, I gained a solid foundation in core areas such as software development, data structures, algorithms, and web technologies. I also had the opportunity to work on various projects that enhanced my skills in problem-solving, coding, and innovative technology solutions. This academic experience has equipped me with both theoretical knowledge and practical skills to excel in the field of software and web development.
+                  I earned my Bachelor  degree in Computer Engineering from the Graduate School of Engineering at Midwest University, completing the program between 2018 and 2025. During my studies, I gained a solid foundation in core areas such as software development, data structures, algorithms, and web technologies. I also had the opportunity to work on various projects that enhanced my skills in problem-solving, coding, and innovative technology solutions. This academic experience has equipped me with both theoretical knowledge and practical skills to excel in the field of software and web development.
                 </p>
               </div>
             </div>
