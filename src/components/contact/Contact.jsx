@@ -50,7 +50,7 @@ const Contact = () => {
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="email"
-              placeholder="bnaresh9001@gmail.com"
+              placeholder="bnaresh9002@gmail.com"
               name=""
             />
             <input

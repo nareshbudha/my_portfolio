@@ -41,7 +41,7 @@ const Resume = () => {
                   Spell Innovation pvt.ltd
                 </span>
                 <span className=" text-[.9rem] font-semibold text-red-900 sm:text-base">
-                  February 2023 - 2025
+                  February 2023 - 2026
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                   As a Full Stack Developer at Spell Innovation Pvt. Ltd., I work on both frontend and backend development. On the backend, I design and build custom, user-friendly CMS solutions that simplify content management and streamline workflows. I integrate these systems with modern, responsive frontend interfaces, ensuring seamless performance and an intuitive user experience. My work involves technologies such as Laravel (PHP), React, MySQL, and Tailwind CSS, enabling the delivery of efficient and scalable web applications. I have contributed to several successful projects that have improved user engagement and client satisfaction. This role has significantly strengthened my expertise in web development, problem-solving, and collaborative teamwork.
